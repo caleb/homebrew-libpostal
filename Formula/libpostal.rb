@@ -28,7 +28,7 @@ class Libpostal < Formula
                             "--datadir=#{share}/libpostal-data"
     end
     
-    system "make", "-j", "4", "install"
+    system "make", "-j6", "install"
   end
 
   test do
